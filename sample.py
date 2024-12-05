@@ -1,7 +1,7 @@
-solution_answer = ""
+solution_answer = 0
 
-def process_input(input: list[str]) -> str:
-    return ""
+def process_input(input: list[str]) -> int:
+    return 0
     
     
 
