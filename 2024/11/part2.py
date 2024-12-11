@@ -24,7 +24,7 @@ def memoed_score(number: str, steps=25) -> int:
         print((number, steps), scores[(number, steps)])
     return scores[(number, steps)]
     
-#@Memoize
+@Memoize
 def score(number: str, steps=75) -> int:
     if steps <= 0:
         return 1
